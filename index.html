@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="cruds">
+        <form action="">
+            <input type="text" placeholder="firstname" id="firstname" required>
+            <input type="text" placeholder="lastname" id="lastname" required>
+            <input type="email" placeholder="email" id="email" required>
+            <input type="number" placeholder="number" id="number" required>
+        </form>
+        <div class="bttn">
+            <button id="btn">submit</button>
+            <button id="btn2" onclick="deleteAll()">deleteAll</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+               
+            </tbody>
+        </table>
+    </div>
+  
+</body>
+<script src="index.js"></script>
+</html>

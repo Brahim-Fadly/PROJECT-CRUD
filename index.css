@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.cruds{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding: 5px;
+    outline: none;
+}
+.bttn{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    border: none;
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 99px;
+    transition: 0.5s;
+}
+button:hover{
+    letter-spacing: 0.03cm;
+}
+table{
+    border: black solid 1px;
+    margin-top: 10px;
+}
+th{
+   border: black solid 1px;
+   padding: 5px;
+}
+td{
+    border: black solid 1px;
+    padding: 5px;
+ }
+
+
